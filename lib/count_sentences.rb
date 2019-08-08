@@ -3,7 +3,8 @@ require 'pry'
 class String
 
   def sentence?
-    "Hi, my name is Sophie."
+    return true if "Hi, my name is Sophie."
+    false
   end
 
   def question?
