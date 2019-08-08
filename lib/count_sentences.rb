@@ -4,7 +4,7 @@ class String
 
   def sentence?
     return true if "Hi, my name is Sophie."
-    false
+    return false if "Hi, my name is Sophie"
   end
 
   def question?
