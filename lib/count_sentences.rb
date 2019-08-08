@@ -21,6 +21,5 @@ class String
       sentence_arr << sent
     end
     sentence_arr.uniq.count
-    binding.pry
   end
 end
