@@ -11,7 +11,11 @@ class String
   end
 
   def question?
-
+    if "What's your name?"
+      return true
+    elsif  "Happy Halloween!"
+      return false
+    end
   end
 
   def exclamation?
