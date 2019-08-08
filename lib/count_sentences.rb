@@ -15,11 +15,12 @@ class String
   end
 
   def count_sentences
-    sentences = self.split(/[.!?]/)
-    sentence_arr = []
-    sentences.each do |sent|
-      sentence_arr << sent
-    end
-    sentence_arr.uniq.count
-  end
+  #   sentences = self.split(/[.!?]/)
+  #   sentence_arr = []
+  #   sentences.each do |sent|
+  #     sentence_arr << sent
+  #   end
+  #   sentence_arr.uniq.count
+  # end
+  self.split(/[.!?]/).reject {|x| x.empty?}.size
 end
