@@ -21,7 +21,5 @@ class String
       sentence_arr << sent
     end
     sentence_arr.reject { |x| x.empty?}.count
-  
-
   end
 end
