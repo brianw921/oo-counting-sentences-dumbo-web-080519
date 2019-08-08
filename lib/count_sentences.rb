@@ -13,7 +13,8 @@ class String
   def question?
     if "What's your name?"
       return true
-    elsif  "Happy Halloween!"
+    end
+    if  "Happy Halloween!"
       return false
     end
   end
