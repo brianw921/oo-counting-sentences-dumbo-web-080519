@@ -23,4 +23,5 @@ class String
   #   sentence_arr.uniq.count
   # end
   self.split(/[.!?]/).reject {|x| x.empty?}.size
+  binding.pry
 end
