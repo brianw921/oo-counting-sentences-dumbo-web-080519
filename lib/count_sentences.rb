@@ -3,11 +3,10 @@ require 'pry'
 class String
 
   def sentence?
-    if "Hi, my name is Sophie."
+    if self[-1] == "?"
       return true
-    elsif "Hi, my name is Sophie"
-      return false
     end
+    false
   end
 
   def question?
