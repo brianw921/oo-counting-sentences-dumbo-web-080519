@@ -21,5 +21,6 @@ class String
       sentence_arr << sent
     end
     sentence_arr.count
+    binding.pry
   end
 end
