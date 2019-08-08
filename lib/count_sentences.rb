@@ -22,7 +22,7 @@ class String
   #   end
   #   sentence_arr.uniq.count
   # end
-  self.split(/[.!?]/).reject {|x| x.empty?}.size
+  self.split(/[.!?]/).reject {|x| x.empty?}.count
 
   end
 end
