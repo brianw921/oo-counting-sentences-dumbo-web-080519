@@ -7,6 +7,7 @@ class String
       return true
     end
     false
+    binding.pry
   end
 
   def question?
