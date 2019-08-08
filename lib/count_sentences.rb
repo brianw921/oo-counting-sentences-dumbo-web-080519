@@ -7,12 +7,7 @@ class String
   end
 
   def question?
-    if "What's your name?"
-      return true
-    end
-    if  "Happy Halloween!"
-      return false
-    end
+    self.[-1] == "?"
   end
 
   def exclamation?
