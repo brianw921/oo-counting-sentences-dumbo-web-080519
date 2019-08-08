@@ -20,7 +20,7 @@ class String
     sentences.each do |sent|
       sentence_arr << sent
     end
-    sentence_arr.count
+    sentence_arr.uniq.count
     binding.pry
   end
 end
